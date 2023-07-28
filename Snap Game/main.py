@@ -76,7 +76,7 @@ def checkWin(Player,card):
         return True,card
     else:
         return False,card    
-def main():
+def main(): 
     Daniel=people.PeopleClass("Daniel",makeCards(5))
     Michael=people.PeopleClass("Michael",makeCards(5))
     startingCard=makeCards(1)
